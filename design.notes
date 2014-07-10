@@ -1,0 +1,65 @@
+# 0: Games namespace
+
+# 1: Game loop
+     Dealer.Start()
+
+     OR
+
+     foreach(Participant) {
+
+     }
+
+     ...
+     //Game end
+     foreach(Player)
+       player.CashIn();
+
+     //Results:
+     Dealer wins!
+     
+     or
+
+     Player 1 wins! Win total: $139
+     Player 3 Win total:
+     ...
+# Text based interface
+Hi, Welcome to BlackJack! [value] are defaults.
+
+How many players will be joining? [1]: 
+How much cash for each player? [$100]:
+
+How do you want to play: Manual (You decide how to play hands) or Automated (Computer plays for you)? [Manual]:
+Level of players: Novice/Medium/Pro/Random? [Novice]:
+
+Dealer hits 17? [Yes]:
+Min buy in? [$5]:
+Max buy in? [$5]:
+
+Players: 1 created
+Dealer created
+?? How much cash(in chips) should the players be created with?
+
+??Help??
+??Main menu??
+  - Start new game
+  - Current score
+  - Resume
+  - Quit
+
+[Starting Game]
+Note: Cards are 1-10, J=Q=K=10, A=1 or 11
+
+Shuffling deck of cards.....completed
+
+Round 01:
+
+Dealer has ======> 1 5
+Player1: 2 8
+Player1 bets: $110
+
+<<Pause....Hit any key>>
+?? Are the dealer cards faced up or down to players???
+
+?? In this game, does the gamer get to control whether or not to place a bet (how much), continue hitting/stand? 
+   Or should the game have it's own AI to decide this on its own and the gamer just watches? Look at some BlackJack games online
+   to see how it works
